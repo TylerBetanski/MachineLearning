@@ -1,6 +1,6 @@
 # Wine Classifier
 
-Goal: Create a model to classify a variety of wine into 3 categories: Low, Med, High.
+Goal: Use a Decision Tree to classify a variety of wine into 3 categories: Low, Med, High.
 
 ### Features:
 ><b>Fixed Acidity</b>:          The amount of fixed acids in the wine, which is typically a combination of tartaric, malic, and citric acids\
@@ -28,6 +28,8 @@ Goal: Create a model to classify a variety of wine into 3 categories: Low, Med, 
 ### Label:
 ><b>Quality</b>:              The quality level of the alcohol. Originally an integer from 3-9,\
 >but processed into Low (3 & 4), Med (5-7), High (8 & 9)
+
+The data is <b>NOT</b> normalized before being used by the classifier, to ensure that the resulting decision tree contains the correct units.
 
 ### Results:
 100% accuracy on Training Set, 72% accuracy on Validation Set.
